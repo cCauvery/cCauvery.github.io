@@ -1,0 +1,64 @@
+<div id="carouselExampleControls" class="carousel slide p-2" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div *ngFor="let image of carouselImages; let i = index" class="carousel-item" [class.active]="i === 0">
+      <img [src]="image.src" class="d-block w-100 rounded" [alt]="image.alt">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+
+<div class="container-fluid my-5">
+  <div class="row">
+    <!-- About Us Section -->
+    <div class="col-md-7 mb-3 ms-md-5">
+      <div class="card h-100 shadow">
+        <div class="card-body">
+          <h4 class="card-title">{{ aboutUs.title }}</h4>
+          <hr>
+          <p class="card-text px-2 text-justify">{{ aboutUs.description }}</p>
+          <div class="row mt-4 align-items-center">
+            <div *ngFor="let img of aboutUs.images" class="col-sm-4 mb-3">
+              <img [src]="img.src" class="img-fluid rounded" [alt]="img.alt">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Activities Section -->
+    <div class="col-md-4 mb-3 ms-md-5">
+      <div class="card h-100 shadow">
+        <div class="card-body">
+          <h4 class="card-title">Activities</h4>
+          <hr>
+          <div id="activitiesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div *ngFor="let activity of activities; let i = index" class="carousel-item" [class.active]="i === 0">
+                <img [src]="activity.image" class="d-block w-100 rounded" [alt]="activity.title">
+                <div class="mt-3 text-center">
+                  <p class="card-text mb-1">
+                    <small class="text-muted"><i class="far fa-calendar-alt"></i> {{ activity.date }}</small>
+                  </p>
+                  <h6>{{ activity.title }}</h6>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-indicators mb-2">
+              <button *ngFor="let activity of activities; let i = index"
+                      type="button" data-bs-target="#activitiesCarousel"
+                      [attr.data-bs-slide-to]="i" [class.active]="i === 0"
+                      [attr.aria-label]="'Slide ' + (i + 1)">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

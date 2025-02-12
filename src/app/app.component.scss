@@ -1,0 +1,25 @@
+.carousel-caption h6 {
+  margin-top: 15px;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #6c757d;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(43, 107, 226);
+}
+

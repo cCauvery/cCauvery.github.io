@@ -1,0 +1,14 @@
+<div class="container mt-4">
+  <h2 class="text-center mb-4 fw-bold">Missions</h2>
+
+  <div class="row">
+    <div *ngFor="let mission of missions; let i = index" class="col-md-4 d-flex align-items-stretch mb-4">
+      <div class="card shadow-lg text-dark border-0 w-100 {{ getCardClass(i) }}">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title text-center" aria-label="Mission Title">{{ mission.heading || 'Mission Details' }}</h5>
+          <p class="card-text flex-grow-1" aria-label="Mission Description">{{ mission.description || 'Details coming soon...' }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="container my-4">
+  <h2 class="text-center mb-4 bg-dark text-white py-1">Data Repository</h2>
+  <div class="row my-5">
+    <div class="col-md-4 mb-4" *ngFor="let mission of missionsList; let i = index; trackBy: trackByIndex">
+      <div class="card h-100" [ngClass]="bgColors[i % bgColors.length]">
+        <div class="card-body">
+          <h5 class="card-title">{{ mission.heading }}</h5>
+          <p class="card-text">{{ mission.description }}</p>
+          <div class="text-center">
+            <ng-container *ngFor="let quarter of quarters">
+              <a *ngIf="isValidLink(mission.quarterLinks?.[quarter])"
+                 [href]="mission.quarterLinks?.[quarter]"
+                 class="btn btn-success btn-sm m-1"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                {{ quarter }}
+              </a>
+              <button *ngIf="!isValidLink(mission.quarterLinks?.[quarter])"
+                      class="btn btn-primary btn-sm m-1"
+                      disabled>
+                {{ quarter }}
+              </button>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
