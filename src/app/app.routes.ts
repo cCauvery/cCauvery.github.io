@@ -12,7 +12,7 @@ import { InstitutionGuard } from './guards/institution.guard';
 
 export const routes: Routes = [
   { path: '', component: HomepageComponent },
-  { path: 'teams/:institution', component: TeamsComponent, canActivate: [InstitutionGuard] }, 
+  { path: 'teams/:institution', component: TeamsComponent, canActivate: [InstitutionGuard] },
   { path: 'vision', component: VisionComponent},
   { path: 'missions', component: MissionsComponent},
   { path: 'member_institutes', component: MemberInstitutesComponent},
