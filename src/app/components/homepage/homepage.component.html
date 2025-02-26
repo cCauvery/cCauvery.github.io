@@ -16,11 +16,11 @@
   <div class="row">
     <!-- About Us Section -->
     <div class="col-md-7 mb-3 ms-md-5">
-      <div class="card h-100 shadow">
+      <div class="card shadow">
         <div class="card-body">
           <h4 class="card-title">{{ aboutUs.title }}</h4>
           <hr>
-          <p class="card-text px-2 text-justify">{{ aboutUs.description }}</p>
+          <p class="card-text px-2" style="text-align: justify;" [innerHTML]="aboutUs.description"></p>
           <div class="row mt-4 align-items-center">
             <div *ngFor="let img of aboutUs.images" class="col-sm-4 mb-3">
               <img [src]="img.src" class="img-fluid rounded" [alt]="img.alt">
@@ -32,7 +32,7 @@
 
     <!-- Activities Section -->
     <div class="col-md-4 mb-3 ms-md-5">
-      <div class="card h-100 shadow">
+      <div class="card shadow">
         <div class="card-body">
           <h4 class="card-title">Activities</h4>
           <hr>
