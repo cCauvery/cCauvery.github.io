@@ -16,7 +16,9 @@ export const missions: Mission[] = [
     heading: "Mission 1",
     description: "Collection and Collation of Information of the River Basin",
     quarterLinks: {
-      [Quarter.Q1]: "https://drive.google.com/file/d/1-exm8O8oTuHA99wVF3M3ONzna3rponWA/view?usp=sharing"
+      [Quarter.Q1]: "https://drive.google.com/drive/folders/1zO5g27-godsvQdNykj5Eypccpy-53jcf?usp=sharing",
+      [Quarter.Q2]: "https://drive.google.com/drive/folders/187WXvuEBMIqsUfGtzaXdUFbmpHEbWjrc?usp=sharing",
+      [Quarter.Q3]: "https://drive.google.com/drive/folders/19iVTN12bVkJWi6lONV6JkquM1d8jzOae?usp=sharing"
     }
   },
   {

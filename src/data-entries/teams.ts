@@ -78,6 +78,20 @@ export const iisc: TeamData = {
       imgSrc: 'assets/images/Staffs/IISc/Dr.Suyog_Gupta.webp '
     },
     {
+      name: 'Dr. Retinder Kaur ',
+      designation: 'Research Associate',
+      qualification: 'Ph.D',
+      supervisors: 'Prof. Praveen C Ramamurthy',
+      imgSrc: 'assets/images/Staffs/IISc/Dr.RetinderK.webp'
+    },
+    {
+      name: 'Dr. Dagani Koteswara Rao ',
+      designation: 'Research Associate',
+      qualification: 'Ph.D',
+      supervisors: 'Prof. Srinivas V.V.',
+      imgSrc: 'assets/images/Staffs/IISc/Dr.Koteswara_Rao.jpg'
+    },
+    {
       name: 'Dr. Daljeet Singh Dhanjal',
       designation: 'Senior Project Associate',
       qualification: 'Ph.D',
@@ -85,11 +99,11 @@ export const iisc: TeamData = {
       imgSrc: 'assets/images/Staffs/IISc/Dr.DaljeetSD.webp'
     },
     {
-      name: 'Mr. Vara Prasad',
-      designation: 'Senior Project Associate',
-      qualification: 'Ph.D Scholar',
-      supervisors: 'Prof. V.V. Srinivas',
-      imgSrc: 'assets/images/Staffs/IISc/VaraPrasad.jpg'
+      name: 'Dr. Suhail Ahmed',
+      designation: 'Senior Research Fellow',
+      qualification: 'Ph.D',
+      supervisors: 'Prof. Praveen C Ramamurthy',
+      imgSrc: 'assets/images/Staffs/IISc/Dr.SuhailAhmad.jpg'
     },
     {
       name: 'Mr. Ramesh N',
@@ -97,20 +111,6 @@ export const iisc: TeamData = {
       qualification: 'M.Sc',
       supervisors: 'Dr. Lakshminarayana Rao',
       imgSrc: 'assets/images/Staffs/IISc/Ramesh_N.jpg'
-    },
-    {
-      name: 'Ms. Palugulla Naga Chandi Priya',
-      designation: 'Project Associate I',
-      qualification: 'M.Sc',
-      supervisors: 'Dr. Rajarshi Das Bhowmik',
-      imgSrc: 'assets/images/Staffs/IISc/ChandiPriya.webp'
-    },
-    {
-      name: 'Ms. Prajakta Mali',
-      designation: 'Project Associate I',
-      qualification: 'M.Tech',
-      supervisors: 'Prof. Nagesh Kumar D & Dr. Debsunder Dutta',
-      imgSrc: 'assets/images/Staffs/IISc/Prajakta_Mali.jpeg'
     },
     {
       name: 'Ms. Swetha G',

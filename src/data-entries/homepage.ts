@@ -1,7 +1,8 @@
 export const homepageData = {
   carouselImages: [
-    { src: 'assets/images/Carousel/Slide-1.jpg', alt: 'Slide 1' },
-    { src: 'assets/images/Carousel/Slide-2.jpg', alt: 'Slide 2' }
+    { src: 'assets/images/Carousel/Slide-3.jpg', alt: 'Slide 3' },
+    { src: 'assets/images/Carousel/Slide-2.jpg', alt: 'Slide 2' },
+    { src: 'assets/images/Carousel/Slide-1.jpg', alt: 'Slide 1' }
   ],
   aboutUs: {
     title: "About Us",
@@ -12,21 +13,76 @@ export const homepageData = {
       { src: 'assets/images/PCM.jpg', alt: 'PCM' }
     ]
   },
-  activities: [
+    activities: [
     {
-      image: 'assets/images/Activities/1st_JRC-Meeting.jpg',
-      date: 'May 16, 2024',
-      title: 'First JRC Meeting for cCauvery'
-    },
-    {
-      image: 'assets/images/Activities/Inaguration_cCauvery.jpg',
-      date: 'July 25, 2024',
-      title: 'Inauguration Ceremony of cCauvery'
+      image: 'assets/images/Activities/Review_Neeri_17012025.jpg',
+      date: 'January 17, 2025',
+      title: 'Review meeting of cCauvery',
+      description: '',
+      images: ['assets/images/Activities/Review_Neeri_17012025.jpg']
     },
     {
       image: 'assets/images/Activities/TownHall_Meeting.jpg',
       date: 'July 25, 2024',
-      title: 'Town hall meeting for cCauvery'
+      title: 'Town hall meeting of cCauvery',
+      description: '',
+      images: ['assets/images/Activities/TownHall_Meeting.jpg']
+    },
+    {
+      image: 'assets/images/Activities/Inaguration_cCauvery.jpg',
+      date: 'July 25, 2024',
+      title: 'Inauguration Ceremony of cCauvery',
+      description: '',
+      images: ['assets/images/Activities/Inaguration_cCauvery.jpg']
+    },
+    {
+      image: 'assets/images/Activities/1st_JRC-Meeting.jpg',
+      date: 'May 16, 2024',
+      title: 'First JRC Meeting for cCauvery',
+      description: '',
+      images: ['assets/images/Activities/1st_JRC-Meeting.jpg']
     }
+  ],
+  fieldSurveys: [
+    {
+      image: 'assets/images/Field_Survey/Balumuri.jpg',
+      date: 'May 04, 2025',
+      title: 'Monitoring Location: Balumuri, Karnataka',
+      description: '',
+      images: ['assets/images/Field_Survey/Balumuri.jpg']
+    },
+    {
+      image: 'assets/images/Field_Survey/Srirangapatna.jpg',
+      date: 'May 04, 2025',
+      title: 'Monitoring Location: Srirangapatna, Karnataka',
+      description: '',
+      images: ['assets/images/Field_Survey/Srirangapatna.jpg']
+    },
+    {
+      image: 'assets/images/Field_Survey/Mysuru.jpg',
+      date: 'May 04, 2025',
+      title: 'Monitoring Location: Mysuru, Karnataka',
+      description: '',
+      images: ['assets/images/Field_Survey/Mysuru.jpg']
+    },
+    {
+      image: 'assets/images/Field_Survey/Manchanabele.jpg',
+      date: 'April 13, 2025',
+      title: 'Monitoring Location: Manchanabele, Karnataka',
+      description: '',
+      images: ['assets/images/Field_Survey/Manchanabele.jpg',
+               'assets/images/Field_Survey/Manchanabele_2.jpg',
+               'assets/images/Field_Survey/Manchanabele_3.jpg'
+      ]
+    },
+    {
+      image: 'assets/images/Field_Survey/Hesaraghtta.jpg',
+      date: 'March 20, 2025',
+      title: 'Monitoring Location: Hesaraghtta, Karnataka',
+      description: '',
+      images: ['assets/images/Field_Survey/Hesaraghtta.jpg',
+               'assets/images/Field_Survey/Hesaraghtta_2.jpg',
+      ]
+    },
   ]
 };
