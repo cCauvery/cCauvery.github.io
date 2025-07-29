@@ -78,7 +78,7 @@ export const iisc: TeamData = {
       imgSrc: 'assets/images/Staffs/IISc/Dr.Suyog_Gupta.webp '
     },
     {
-      name: 'Dr. Retinder Kaur ',
+      name: 'Dr. Retinder Kour ',
       designation: 'Research Associate',
       qualification: 'Ph.D',
       supervisors: 'Prof. Praveen C Ramamurthy',
